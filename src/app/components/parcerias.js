@@ -11,17 +11,17 @@ const projetos = [
   {
     titulo: "Richester",
     imagem: "/publis-richester.jpeg",
-    link: "https://gerador-de-curriculo-pied.vercel.app/"
+    link: "#"
   },
   {
     titulo: "Toddy",
     imagem: "/tod.jpeg",
-    link: "https://projeto-anime-rust.vercel.app/"
+    link: "#"
   },
   {
     titulo: "Cheetos",
     imagem: "cheetos.jpeg",
-    link: "https://exemplo.com/loja-virtual"
+    link: "#"
   }
 ];
 
