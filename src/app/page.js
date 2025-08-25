@@ -1,6 +1,7 @@
 // app/page.tsx
 import Image from "next/image";
-import { FaInstagram, FaTiktok, FaTwitch, FaYoutube, FaDiscord } from 'react-icons/fa';
+import { FaInstagram, FaTiktok, FaTwitch, FaYoutube, FaDiscord, MdOutlineMailOutline } from 'react-icons/fa';
+import { MdEmail } from "react-icons/md";
 import CarouselsParcerias from "./components/parcerias";
 
 export default function Home() {
@@ -49,6 +50,9 @@ export default function Home() {
             </a>
             <a href="https://discord.com/invite/HTuudQVGzz" target="_blank" rel="noopener noreferrer">
               <FaDiscord className="w-6 h-6 text-white hover:text-[#670d04] transition-colors" />
+            </a>
+              <a href="mailto:giullia.albertini151617@gmail.com" target="_blank" rel="noopener noreferrer">
+              < MdEmail className="w-6 h-6 text-white hover:text-[#670d04] transition-colors" />
             </a>
           </div>
           <a
